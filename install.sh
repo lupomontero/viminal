@@ -9,7 +9,7 @@ if [ -d "$src" ]; then
   rm -rf "$src"
 fi
 
-git clone git@github.com:lupomontero/viminal.git "$src"
+git clone "$repo" "$src"
 cd "$src"
 git submodule init
 git submodule update
