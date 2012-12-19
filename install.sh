@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 src="$HOME"/.viminal
-repo=https://github.com/lupomontero/viminal.git
+repo=git://github.com/lupomontero/viminal.git
 vimrc="$HOME"/.vimrc
 vim="$HOME"/.vim
 
