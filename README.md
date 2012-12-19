@@ -1,0 +1,3 @@
+# viminal
+
+Minimal vim configuration.
