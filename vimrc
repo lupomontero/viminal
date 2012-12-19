@@ -3,6 +3,8 @@
 " auto reload vimrc when saved
 autocmd BufWritePost .vimrc source %
 
+" http://superuser.com/questions/194933/vim-7-3-with-unicode-on-ubuntu
+set encoding=utf-8
 set t_Co=256
 colorscheme koehler
 set number
