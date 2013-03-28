@@ -6,7 +6,6 @@ autocmd BufWritePost .vimrc source %
 " http://superuser.com/questions/194933/vim-7-3-with-unicode-on-ubuntu
 set encoding=utf-8
 set t_Co=256
-colorscheme koehler
 set number
 
 " use soft tabs (spaces)
@@ -23,7 +22,10 @@ set hlsearch
 set foldmethod=marker
 
 call pathogen#infect()
-syntax on
+syntax enable
+set background=dark
+let g:solarized_termcolors=256
+colorscheme solarized
 filetype plugin indent on
 
 " column width marker
@@ -39,3 +41,8 @@ hi ColorColumn ctermbg=red guibg=red
 " enables autocomplete
 let g:neocomplcache_enable_at_startup = 1
 
+" GitHub Flavoured Markdown
+augroup markdown
+  au!
+  au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
+augroup END
