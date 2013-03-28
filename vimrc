@@ -40,9 +40,3 @@ hi ColorColumn ctermbg=red guibg=red
 
 " enables autocomplete
 let g:neocomplcache_enable_at_startup = 1
-
-" GitHub Flavoured Markdown
-augroup markdown
-  au!
-  au BufNewFile,BufRead *.md,*.markdown setlocal filetype=ghmarkdown
-augroup END
