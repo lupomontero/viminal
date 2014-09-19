@@ -4,5 +4,5 @@ Minimal vim configuration.
 
 ## Installation
 
-    curl https://raw.github.com/lupomontero/viminal/master/install.sh | sh
+    curl https://raw.githubusercontent.com/lupomontero/viminal/master/install.sh | sh
 
