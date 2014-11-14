@@ -3,6 +3,9 @@
 " auto reload vimrc when saved
 autocmd BufWritePost .vimrc source %
 
+" new splits should open to the right
+set splitright
+
 " http://superuser.com/questions/194933/vim-7-3-with-unicode-on-ubuntu
 set encoding=utf-8
 set t_Co=256
