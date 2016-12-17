@@ -1,9 +1,6 @@
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "vim/bundle/puppet"]
-	path = vim/bundle/puppet
-	url = git://github.com/rodjek/vim-puppet.git
 [submodule "vim/bundle/solarized"]
 	path = vim/bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
@@ -16,6 +13,9 @@
 [submodule "vim/bundle/fugitive"]
 	path = vim/bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
-[submodule "vim/bundle/vim-hashicorp-tools"]
-	path = vim/bundle/vim-hashicorp-tools
-	url = https://github.com/markcornick/vim-hashicorp-tools.git
+[submodule "vim/bundle/vim-javascript"]
+	path = vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/bundle/vim-jsx"]
+	path = vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
